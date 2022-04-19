@@ -21,6 +21,7 @@ public class Employee {
 	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
+	private int totalMonthlySalary;
 
 	
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
@@ -62,5 +63,9 @@ public class Employee {
 	
 	public void setAdditionalIncome(int income) {	
 		this.otherMonthlyIncome = income;
+	}
+	
+	public void totalMonthlySalary(int totalMonthlySalary) {
+		totalMonthlySalary = monthlySalary + income;
 	}
 }
