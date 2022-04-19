@@ -1,7 +1,6 @@
 package lib;
 
 import java.time.LocalDate;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Employee {
@@ -27,8 +26,6 @@ public class Employee {
 	private String spouseName;
 	private String spouseIdNumber;
 
-	private List<String> childNames;
-	private List<String> childIdNumbers;
 	
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
 		this.employeeId = employeeId;
