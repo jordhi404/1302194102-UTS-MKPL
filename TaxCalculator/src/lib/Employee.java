@@ -3,6 +3,7 @@ package lib;
 import java.time.LocalDate;
 import java.util.List;
 
+// Program untuk mendata pegawai dan gaji bulanan pegawai.
 public class Employee {
 
 	private String employeeId;
@@ -20,7 +21,6 @@ public class Employee {
 	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
-	private int annualDeductible;
 
 	
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
@@ -58,10 +58,6 @@ public class Employee {
 				monthlySalary = (7000000 * 1.5);
 			}
 		}
-	}
-	
-	public void setAnnualDeductible(int deductible) {	
-		this.annualDeductible = deductible;
 	}
 	
 	public void setAdditionalIncome(int income) {	
