@@ -54,12 +54,12 @@ public class Employee {
 		}else if (grade == 2) {
 			monthlySalary = 5000000;
 			if (isForeigner) {
-				monthlySalary = (3000000 * 1.5);
+				monthlySalary = (5000000 * 1.5);
 			}
 		}else if (grade == 3) {
 			monthlySalary = 7000000;
 			if (isForeigner) {
-				monthlySalary = (3000000 * 1.5);
+				monthlySalary = (7000000 * 1.5);
 			}
 		}
 	}
